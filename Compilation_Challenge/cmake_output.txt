@@ -1,0 +1,234 @@
+version:5.4.0
+/home/sleep-404/.lab/base/src/libs/jderobotutil
+/home/sleep-404/.lab/base/src/libs/colorspaces
+/home/sleep-404/.lab/base/src/libs/colorspacesmm
+/home/sleep-404/.lab/base/src/libs/easyiceconfig
+/home/sleep-404/.lab/base/src/libs/parallelIce
+/home/sleep-404/.lab/base/src/libs/depthLib
+/home/sleep-404/.lab/base/src/libs/geometry
+/home/sleep-404/.lab/base/src/libs/logger
+/home/sleep-404/.lab/base/src/libs/ns
+/home/sleep-404/.lab/base/src/libs/progeo
+/home/sleep-404/.lab/base/src/libs/pioneer
+/home/sleep-404/.lab/base/src/libs/fuzzylib
+*** ALUT not found
+-- ardronelib FOUND. Version: autonomy-gps
+-- ardronelib libraries: pc_ardrone;pc_ardrone_notool;sdk;vlib;avcodec;avdevice;avfilter;avformat;avutil;swscale
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+--   thread
+--   chrono
+--   date_time
+--   atomic
+   -- CUDA not found!!
+*** Fireware ok
+*** GAZEBO LIBRARIES FOUND: /usr/include/gazebo-7;/usr/include/sdformat-4.4;/usr/include/ignition/math2 - /usr/include/OGRE
+-- Found glog    (include: /usr/include, library: /usr/lib/x86_64-linux-gnu/libglog.so)
+*** Goocanvasmm LIBRARIES FOUND
+*** ICE ok
+LIBFREENECT NOT FOUND
+*** libusb FOUND
+Libxml++ libraries found at 
+*** LIBXML2 ok
+CMake Warning at Deps/mmal/CMakeLists.txt:9 (FIND_PACKAGE):
+  By not providing "FindMMAL.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "MMAL", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "MMAL" with any of
+  the following names:
+
+    MMALConfig.cmake
+    mmal-config.cmake
+
+  Add the installation prefix of "MMAL" to CMAKE_PREFIX_PATH or set
+  "MMAL_DIR" to a directory containing one of the above files.  If "MMAL"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  Deps/LoadJderobotDependencies.cmake:12 (include)
+  CMakeLists.txt:162 (include)
+
+
+*** Nite not found
+NITE2 library not found
+--  NodeJS found
+*** OGRe LIBRARIES FOUND: /usr/include/OGRE
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  core flann imgproc ml features2d video objdetect 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  highgui calib3d 
+-- Found OpenCV: /opt/ros/kinetic (found version "3.3.1") found components:  bgsegm 
+***OpenCV Version: 3.3.1
+***OpenCV CORE LIBS: opencv_core;opencv_flann;opencv_imgproc;opencv_ml;opencv_features2d;opencv_video;opencv_objdetect
+***OpenCV GUI LIBS: opencv_highgui;opencv_calib3d
+***OpenCV EXTRA LIBS: opencv_bgsegm
+OpenGL libraries found at /usr/lib/x86_64-linux-gnu/libglut.so;/usr/lib/x86_64-linux-gnu/libXmu.so;/usr/lib/x86_64-linux-gnu/libXi.so
+-- OpenNi found at /usr/lib/libOpenNI.so
+-- OpenNI2 found at /opt/jderobot/include/openni2
+-- Using OpenSSL 1.0.2g
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-6.2/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libopenni2'
+--   No package 'libopenni2' found
+-- Could NOT find PCL_APPS (missing:  PCL_APPS_LIBRARY) 
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.5.2", minimum required is "3") 
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+/usr/lib/python3.5:/opt/jderobot/lib/python3.5
+/usr/lib/python2.7:/opt/jderobot/lib/python2.7
+-- kurt
+-- Could NOT find PY_kurt (missing:  PY_KURT) 
+-- parse
+-- Could NOT find PY_parse (missing:  PY_PARSE) 
+-- termcolor
+-- Could NOT find PY_termcolor (missing:  PY_TERMCOLOR) 
+-- *** QFI_INCLUDE_DIR found
+-- *** QFI_LIBRARY found
+*** QT LIBRARIES Found Qt5::Widgets;Qt5::Core;Qt5::Gui;Qt5::Svg;Qt5::OpenGL
+*** ROS LIBRARIES FOUND : /opt/ros/kinetic/include;/usr/include;/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-- Using CATKIN_DEVEL_PREFIX: /home/sleep-404/.lab/base/src/devel
+-- Using CMAKE_PREFIX_PATH: /opt/ros/kinetic
+-- This workspace overlays: /opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Skip enable_testing() when building binary package
+-- Using CATKIN_TEST_RESULTS_DIR: /home/sleep-404/.lab/base/src/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Could NOT find PythonInterp (missing:  PYTHON_EXECUTABLE) (found version "2.7.12")
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+*** LIBTINYXML ok
+***VTK FOUND 6.2
+*** Xerces ok
+/usr/include/libxml2
+***YAML-CPP FOUND: /usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/../../../../include
+youtube-dl found at /usr/bin/youtube-dl
+-- Building ICE Interfaces for:
+-- 	CPP
+-- 	Python
+-- Processing library config_cpp
+-- Processing library progeo
+-- Processing library jderobotHandlers
+-- Processing library easyiceconfig
+-- Processing library resourcelocator
+-- Processing library logger
+version:5.4.0
+-- Processing library comm_cpp
+-- Processing library fuzzylib
+-- Processing library geometry
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   system
+--   filesystem
+-- Processing library depthLib
+-- Processing library ns
+-- Processing library jderobotutil
+-- Processing library comm_py
+-- Processing library jderobotViewer
+-- Processing library config_py
+-- Processing library easyiceconfig_py
+-- Processing library visionlib
+-- Processing library parallelIce
+-- Processing library xmlParser
+-- Processing library parallelIce_py
+-- Processing tool cameraCalibrator
+-- Processing tool rgbdViz
+-- Processing tool replayController
+-- Processing tool carViz
+-- Processing tool uav_viewer
+-- Processing tool rgbdviewerjs
+-- Processing tool replayer2
+-- Processing tool navigatorCamera
+-- Processing tool uav_viewer_py
+-- Processing tool camViz
+-- Processing tool visualStates
+-- Processing tool pantilt_teleop_py
+-- Processing tool namingService
+-- Processing tool giraffeClient
+-- Processing tool camViz_py
+-- Processing tool colorTuner_py
+-- Processing tool rgbdCalibrator
+-- Processing tool recorder2
+-- Processing tool rgbdManualCalibrator
+-- Processing driver openniServer
+-- Processing driver MAVLinkServer
+-- Processing driver evicam_driver
+-- Processing driver gazebo
+-- Processing plugin quadrotor
+-- Processing plugin formula1
+-- Processing plugin roomba
+-- Processing plugin f1
+-- Processing plugin gymkhana
+-- Processing plugin flyingKinect
+-- Processing plugin pioneer
+-- Processing plugin turtlebot
+-- Processing plugin taxiholoLaser
+-- Processing plugin solo
+-- Processing plugin opel
+-- Processing plugin holo_car
+-- Processing plugin car
+-- Processing plugin gazebo_ros_screw_plugin
+-- Boost version: 1.58.0
+-- Processing plugin kinect
+-- Processing plugin pibot
+-- Processing plugin dummycar
+-- Processing driver camserver_py
+-- Processing driver camserver
+-- Processing driver kinect2server
+Disabled
+-- Processing driver openni1Server
+-- Processing driver piCamServer_py
+-- Processing driver pclRGBDServer
+-- Processing driver YoutubeServer
+-- Processing driver ardrone_server
+-- Processing driver PiBot
+-- Processing driver giraffeServer
+-- Processing driver emSensorDriver
+WiringPi library is required to build emSensorDriver, skipping driver bulid.
+-- Processing sample opencvdemo
+-- Processing sample visualStates
+-- Processing sample basic_server
+-- Processing sample basic_component_py
+-- Processing sample basic_component
+deps-dev
+dpkg-deb: building package 'jderobot-deps-dev' in '.dpkg_pkgs/jderobot-deps-dev_5.6.6_all.deb'.
+drivers
+dpkg-deb: building package 'jderobot-drivers' in '.dpkg_pkgs/jderobot-drivers_5.6.6_all.deb'.
+examples
+dpkg-deb: building package 'jderobot-examples' in '.dpkg_pkgs/jderobot-examples_5.6.6_all.deb'.
+libs
+dpkg-deb: building package 'jderobot-libs' in '.dpkg_pkgs/jderobot-libs_5.6.6_all.deb'.
+tools
+dpkg-deb: building package 'jderobot-tools' in '.dpkg_pkgs/jderobot-tools_5.6.6_all.deb'.
+zeroc-ice-python
+cp: cannot create regular file '.dpkg_pkgs/jderobot-zeroc-ice-python_5.6.6_all/DEBIAN/postinst': Permission denied
+cp: cannot create regular file '.dpkg_pkgs/jderobot-zeroc-ice-python_5.6.6_all/DEBIAN/postrm': Permission denied
+dpkg-deb: building package 'jderobot-zeroc-ice-python' in '.dpkg_pkgs/jderobot-zeroc-ice-python_5.6.6_all.deb'.
+jderobot
+dpkg-deb: building package 'jderobot' in '.dpkg_pkgs/jderobot_5.6.6_all.deb'.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sleep-404/.lab/base/src
