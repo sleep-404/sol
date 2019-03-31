@@ -32,3 +32,10 @@ conditions of different cells<br />
 **coloumns** -> number of coloumns of the board<br />
 **Initial** -> Cell co-ordinates where there are alive cells initially.<br />
 **Zero indexing** is followed in the above line<br />
+
+
+The code can be run using the below commands 
+
+```sh
+$ python app.py config.json
+```
