@@ -136,6 +136,18 @@ int main(int argc, char *argv[]){
       if(valid(i,j,visited)){
         dfs(i,j,visited,yo,true,rows,cols);
         points.push(make_pair(i,j));
+/*
+              Need to store all the paths to gurantee correctness,
+              this takes care of the following types of examples
+
+	     ..##..
+	     .##...
+	     .#..#.
+             .##.##
+             .#....
+             ..#..#             
+ 
+					*/
       }
 
   int path=0;
